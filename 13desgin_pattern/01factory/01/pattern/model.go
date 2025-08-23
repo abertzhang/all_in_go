@@ -3,7 +3,6 @@ package pattern
 import "fmt"
 type PayReq struct {
 	OrderID string//订单号
-	Uid int64 //用户ID
 }
 type APayReq struct {
 	PayReq

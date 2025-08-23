@@ -1,11 +1,11 @@
 package pattern
+
 import "testing"
 func TestPay(t *testing.T) {
 	var pay IPay
 	pay = &APayReq{
 		PayReq: PayReq{
 			OrderID: "123456",
-			Uid:     1,
 		},
 	}
 	if pay.Pay() != "支付成功" {
@@ -14,7 +14,6 @@ func TestPay(t *testing.T) {
 	pay = &BPayReq{
 		PayReq: PayReq{
 			OrderID: "654321",
-			Uid:     2,
 		},
 	}
 	if pay.Pay() != "支付成功" {
