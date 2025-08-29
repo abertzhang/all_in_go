@@ -1,7 +1,7 @@
 package main
 
 import (
-	"studyGo/13desgin_pattern/02abstract/01/pattern"
+	"studyGo/13desgin_pattern/102abstract/01/pattern"
 )
 func main() {	
 	ExampleSaveRedis()
