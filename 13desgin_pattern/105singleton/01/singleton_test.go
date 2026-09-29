@@ -1,7 +1,8 @@
-package pattern_test	
+package pattern_test
+
 import (
+	"studyGo/13desgin_pattern/105singleton/01/pattern"
 	"testing"
-	"studyGo/13desgin_pattern/05singleton/01/pattern"
 )
 	func TestSingleton(t *testing.T){
 	s1:=pattern.GetInstance(100)

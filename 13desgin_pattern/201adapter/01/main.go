@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"studyGo/13desgin_pattern/06adapter/01/pattern"
+	"studyGo/13desgin_pattern/201adapter/01/pattern"
 )
 
 func main() {

@@ -1,8 +1,6 @@
 package main
 
-import (
-	"studyGo/13desgin_pattern/03builder/01/pattern"
-)
+import "studyGo/13desgin_pattern/103builder/01/pattern"
 
 func main() {
 	ExampleBuilder()
